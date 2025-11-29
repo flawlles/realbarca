@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a83232;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
+}
+
+.hero {
+    background-image: url(/images/elclasicoposter.avif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    opacity: 85%;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #a83232;
+    padding: 12px 30px;
+    border: 2px solid #a83232;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cta-button:hover {
+    background-color: #a83232;
+    color: #ffcc00;
+    border-color: #ffcc00;
+    transform: translateY(-3px);
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+}
+
+.team-barcelona, .team-madrid {
+    width: 45%;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.team-barcelona {
+    border-left: 6px solid #a83232;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.team-barcelona h3 {
+    color: #a83232;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.team-barcelona p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.team-tilu {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #a83232;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+.team-madrid {
+    border-right: 6px solid #1b29ce;
+    text-align: right;
+    margin-left: 20px;
+}
+.a {
+    color: #1b29ce;
+    text-decoration: none;
+}
+.team-madrid h3 {
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.team-madrid p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.team-barcelona:hover, .team-madrid:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a83232;
+    color: white;
+    margin-top: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}

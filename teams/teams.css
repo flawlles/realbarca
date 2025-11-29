@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0; /* Warm background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a83232; /* Rich red, inspired by Catalonia's flag */
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: #f0e68c; /* Light yellow for Catalonia */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.nume {
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+.team {
+    width: 45%;
+    text-align: center;
+}
+
+.trophies {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.trophies h2 {
+    margin-bottom: 20px;
+}
+
+.trophy {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.player-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.player {
+    width: 320px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #a83232;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.player:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.player-info {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #a83232;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.player:hover .player-info {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a83232;
+    color: white;
+    margin-top: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}

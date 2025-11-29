@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a83232;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
+}
+
+.content-section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0e68c;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.score {
+    color: #a83232;
+    cursor: pointer;
+    position: relative;
+}
+
+.score:hover {
+    text-decoration: underline;
+}
+
+.goal-info {
+    display: none;
+    background-color: #e8f0fe;
+    border: 1px solid #c3dafe;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}

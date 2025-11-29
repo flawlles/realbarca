@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf3e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a83232;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
+}
+
+main {
+    padding: 20px;
+}
+
+.top-scorers, .highest-scores, .total-wins {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #a83232;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.scorers-list, .wins-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scorer, .win {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.image-placeholder {
+    width: 70px;
+    height: 70px;
+    background-color: #e0e0e0;
+    border: 2px dashed #a83232;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a83232;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.highest-scores {
+    text-align: center;
+}
+
+.score-box {
+    background: #fff;
+    border: 2px solid #a83232;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a83232;
+    color: white;
+    margin-top: 50px;
+    font-size: 1rem;
+}
